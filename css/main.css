@@ -1,6 +1,10 @@
 body {
     font-family: 'Manrope', sans-serif;
 }
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
 .btn {
     border-radius: 90px;
     text-transform: uppercase;
@@ -31,10 +35,6 @@ body {
 .btn-outline:hover {
     border: 3px solid #11698E;
     color: #11698E;
-}
-.container header{
-    max-width: 1280px;
-    margin: 0 auto;
 }
 #header-container{
     background-color: #F8F1F1;
@@ -81,6 +81,8 @@ body {
 }
 #services-container {
     background-color: #19456B;
+}
+.services {
     padding: 96px 72px;
 }
 .overtitle {
@@ -160,8 +162,10 @@ body {
     align-items: center;
     gap: 12px;
 }
-footer {
+#footer-container {
     background-color: #11698E;
+}
+.footer {
     color: #ffffff;
     padding: 24px 72px;
     display: flex;
