@@ -13,7 +13,7 @@
 ## Sobre o Projeto
 
 <div align="center">
-  <a href="https://mariferreiradev.github.io/maratona-starter">
+  <a href="https://mariferreiradev.github.io/lovet">
     <img src="./img/petcare.png" alt="Pagina de uma clínica veterinária" width="500px">
   </a>
 </div>
@@ -27,7 +27,7 @@
 
 1. Clone o repositório
    ```sh
-   git clone https://github.com/mariferreiradev/petcare
+   git clone https://github.com/mariferreiradev/lovet
    ```
 2. Abra o index.html com um navegador
 
@@ -36,4 +36,4 @@
 
 Mariana Ferreira - [@mariferreiradev](https://www.linkedin.com/in/mariferreiradev/) - mariferreira.dev@gmail.com
 
-Project Link: [https://github.com/mariferreiradev/petcare](https://github.com/mariferreiradev/petcare)
+Project Link: [https://github.com/mariferreiradev/lovet](https://github.com/mariferreiradev/lovet)
