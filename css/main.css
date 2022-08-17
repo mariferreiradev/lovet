@@ -162,6 +162,44 @@ body {
     align-items: center;
     gap: 12px;
 }
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    padding: 20px 0 50px 72px;
+}
+.contact-areas {
+    padding: 10;
+}
+.contact fieldset {
+    border: 3px solid #19456B;
+    border-radius: 30px;
+    width: 400px;
+    height: 400px;
+    padding: 20px 30px;
+}
+.contact fieldset div {
+    display: flex;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+.contact legend {
+    text-align: center;
+    color: #19456B;
+    font-size: 30px;
+    line-height: 28px;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 700;
+}
+.forms-contact {
+    color: #19456B;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 700;
+}
 #footer-container {
     background-color: #11698E;
 }
