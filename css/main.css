@@ -11,7 +11,7 @@ body {
     font-size: 16px;
 }
 .btn-sm {
-    color: #11698E;
+    color: #19456B;
     padding: 12px 24px;
     font-weight: 600;
 }
@@ -36,7 +36,7 @@ body {
     border: 3px solid #11698E;
     color: #11698E;
 }
-#header-container{
+#header-container {
     background-color: #F8F1F1;
 }
 .header {
@@ -164,41 +164,66 @@ body {
 }
 .contact {
     display: flex;
-    align-items: center;
-    gap: 200px;
-    padding: 20px 0 50px 72px;
-}
-.contact-areas {
-    padding: 10;
-}
-.contact fieldset {
-    border: 3px solid #19456B;
-    border-radius: 30px;
-    width: 400px;
-    height: 400px;
-    padding: 20px 30px;
-}
-.contact fieldset div {
-    display: flex;
-    margin-bottom: 20px;
-    flex-direction: column;
-}
-.contact legend {
+    margin: 0 auto;
     text-align: center;
-    color: #19456B;
-    font-size: 30px;
-    line-height: 28px;
-    font-weight: 400;
-    font-style: normal;
+    border-radius: 30px;
+    padding: 0 0 40px 72px;
+    gap: 100px
+}
+.contact-form {
+    border-radius: 30px;
+    background-color: #d5d2f7;
+    width: 400px;
+}
+.head-form {
+    border-radius: 30px 30px 0px 0px;
+    background-color: #11698E;
+    color: #FAFAFA;
+}
+.contact h2 {
+    text-align: center;
+    padding: 18px 0 18px 0;
+    font-size: 24px;
     font-weight: 700;
 }
-.forms-contact {
+input {
+    margin-bottom: 10px;
+}
+textarea {
+    height: 100px;
+    margin-bottom: 10px;
+}
+input:first-of-type {
+    margin-top: 35px;
+}
+input, textarea {
+    font-size: 16px;
+    padding: 15px 10px 10px;
+    font-family: 'Manrope', sans-serif;
+    border: 1px solid #FAFAFA;
+    background: #FAFAFA;
+    color: #11698E;
+    border-radius: 30px;
+    background-clip: padding-box;
+    width: 80%;
+    max-width: 600px;
+}
+input, textarea:focus {
+    outline: none;
+    border: 1px solid #11698E;
+}
+::-webkit-input-placeholder {
     color: #19456B;
-    font-size: 20px;
-    line-height: 28px;
-    font-weight: 400;
-    font-style: normal;
+}
+.button {
+    margin: 15px auto 25px auto;
+    padding: 12px 45px;
+    background-color: #11698E;
+    color: #FAFAFA;
     font-weight: 700;
+}
+.button:hover {
+    background-color: #19456B;
 }
 #footer-container {
     background-color: #11698E;
